@@ -1,0 +1,5 @@
+rootProject.name = 'docker-containers'
+include 'entrypoint'
+include 'jmeter'
+include 'mongodb'
+include 'spring-backend'

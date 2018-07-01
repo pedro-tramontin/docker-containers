@@ -1,0 +1,6 @@
+docker {
+    name 'pedront/entrypoint'
+    tags 'latest'
+    dockerfile file('Dockerfile')
+    files 'entrypoint.sh'
+}

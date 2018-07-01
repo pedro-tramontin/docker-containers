@@ -1,0 +1,6 @@
+docker {
+    name 'pedront/mongodb'
+    tags 'latest'
+    dockerfile file('Dockerfile')
+    files 'init-db.js'
+}
